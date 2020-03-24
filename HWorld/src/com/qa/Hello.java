@@ -6,8 +6,8 @@ public class Hello {
 		System.out.println(printMessage);
 	}
 	
-	public String returnHello() {
-		return "Hello World!";
+	public String returnHello(String helloReturn) {
+		return helloReturn;
 	}
 
 }
